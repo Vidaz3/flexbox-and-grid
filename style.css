@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 480px) {
+    body{
+        width: 375px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    body{
+        width: 1440px;
+    }
+}
+main{
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    display: flex;
+    margin: auto;
+    margin-top: 25vh;
+    height: 400px;
+    font-size: 15px;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    height: 100%;
+}
+.div1{
+    height: 100%;
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+}
+.div1 h2{
+    font-family:'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div1 p{
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+}
+.div1 button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    width: 120px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+    color:hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+.div1 button:active{
+    background-color: hsl(31, 77%, 52%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+.div2{
+    height: 100%;
+    background-color:hsl(184, 100%, 22%);
+    padding: 30px;
+}
+.div2 h2{
+    font-family:'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div2 p{
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+}
+.div2 button{
+    padding: 10px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    width: 120px;
+    margin-top: 50px;
+    color:hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+.div2 button:active{
+    background-color: hsl(184, 100%, 22%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+.div3{
+    height: 100%;
+    background-color:hsl(179, 100%, 13%);
+    padding: 30px;
+}
+.div3 h2{
+    font-family:'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.div3 p{
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+}
+.div3 button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    width: 120px;
+    border-color: hsl(0, 0%, 95%);
+    border-style: solid;
+    margin-top: 50px;
+    color:hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+.div3 button:active{
+    background-color: hsl(179, 100%, 13%);
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
